@@ -1,0 +1,11 @@
+﻿  Compiling CUDA source file main.cu...
+  
+  C:\Users\pon07\Desktop\CUDA_Practice\004_matrixMul_SubTiles>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\include"  -G   --keep-dir x64\Debug  -maxrregcount=0    --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o C:\Users\pon07\Desktop\CUDA_Practice\004_matrixMul_SubTiles\x64\Debug\main.cu.obj "C:\Users\pon07\Desktop\CUDA_Practice\004_matrixMul_SubTiles\main.cu" 
+CUDACOMPILE : nvcc warning : Support for offline compilation for architectures prior to '<compute/sm/lto>_75' will be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  main.cu
+  tmpxft_00006024_00000000-7_main.cudafe1.cpp
+C:\Users\pon07\Desktop\CUDA_Practice\004_matrixMul_SubTiles\main.cu(79): warning C4244: '??': 'float'?? 'unsigned int'(?)? ????? ???? ??? ? ????.
+C:\Users\pon07\Desktop\CUDA_Practice\004_matrixMul_SubTiles\main.cu(79): warning C4244: '??': 'float'?? 'unsigned int'(?)? ????? ???? ??? ? ????.
+     C:\Users\pon07\Desktop\CUDA_Practice\000_helloCuda\x64\Debug\004_matrixMul_SubTiles.lib ????? ? C:\Users\pon07\Desktop\CUDA_Practice\000_helloCuda\x64\Debug\004_matrixMul_SubTiles.exp ??? ???? ????.
+LINK : warning LNK4098: 'LIBCMT' defaultlib? ?? ?????? ?????. /NODEFAULTLIB:library? ??????.
+  004_matrixMul_SubTiles.vcxproj -> C:\Users\pon07\Desktop\CUDA_Practice\000_helloCuda\x64\Debug\004_matrixMul_SubTiles.exe

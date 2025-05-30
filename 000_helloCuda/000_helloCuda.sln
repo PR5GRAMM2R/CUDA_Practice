@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "000_helloCuda", "000_helloCuda.vcxproj", "{DF35B3C1-9BBB-6308-9511-9CAD9522C89C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "001_cudaMemcpy", "..\001_cudaMemcpy\001_cudaMemcpy.vcxproj", "{CD3EA972-12B3-0F38-86F4-2D63B46D320A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "002_vectorAdd", "..\002_vectorAdd\002_vectorAdd.vcxproj", "{076BAF58-CC9C-37C0-2CCC-B709D3F611B5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "003_matrixMul", "..\003_matrixMul\003_matrixMul.vcxproj", "{45A60239-BE21-D0E3-2BDE-AA8748F65FD2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "004_matrixMul_SubTiles", "..\004_matrixMul_SubTiles\004_matrixMul_SubTiles.vcxproj", "{7DF7EFD2-BCEF-70CD-0118-A884E7347A98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF35B3C1-9BBB-6308-9511-9CAD9522C89C}.Debug|x64.ActiveCfg = Debug|x64
+		{DF35B3C1-9BBB-6308-9511-9CAD9522C89C}.Debug|x64.Build.0 = Debug|x64
+		{DF35B3C1-9BBB-6308-9511-9CAD9522C89C}.Release|x64.ActiveCfg = Release|x64
+		{DF35B3C1-9BBB-6308-9511-9CAD9522C89C}.Release|x64.Build.0 = Release|x64
+		{CD3EA972-12B3-0F38-86F4-2D63B46D320A}.Debug|x64.ActiveCfg = Debug|x64
+		{CD3EA972-12B3-0F38-86F4-2D63B46D320A}.Debug|x64.Build.0 = Debug|x64
+		{CD3EA972-12B3-0F38-86F4-2D63B46D320A}.Release|x64.ActiveCfg = Release|x64
+		{CD3EA972-12B3-0F38-86F4-2D63B46D320A}.Release|x64.Build.0 = Release|x64
+		{076BAF58-CC9C-37C0-2CCC-B709D3F611B5}.Debug|x64.ActiveCfg = Debug|x64
+		{076BAF58-CC9C-37C0-2CCC-B709D3F611B5}.Debug|x64.Build.0 = Debug|x64
+		{076BAF58-CC9C-37C0-2CCC-B709D3F611B5}.Release|x64.ActiveCfg = Release|x64
+		{076BAF58-CC9C-37C0-2CCC-B709D3F611B5}.Release|x64.Build.0 = Release|x64
+		{45A60239-BE21-D0E3-2BDE-AA8748F65FD2}.Debug|x64.ActiveCfg = Debug|x64
+		{45A60239-BE21-D0E3-2BDE-AA8748F65FD2}.Debug|x64.Build.0 = Debug|x64
+		{45A60239-BE21-D0E3-2BDE-AA8748F65FD2}.Release|x64.ActiveCfg = Release|x64
+		{45A60239-BE21-D0E3-2BDE-AA8748F65FD2}.Release|x64.Build.0 = Release|x64
+		{7DF7EFD2-BCEF-70CD-0118-A884E7347A98}.Debug|x64.ActiveCfg = Debug|x64
+		{7DF7EFD2-BCEF-70CD-0118-A884E7347A98}.Debug|x64.Build.0 = Debug|x64
+		{7DF7EFD2-BCEF-70CD-0118-A884E7347A98}.Release|x64.ActiveCfg = Release|x64
+		{7DF7EFD2-BCEF-70CD-0118-A884E7347A98}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE9D7308-7DC6-4D75-8EF0-E4E19D8F6F50}
+	EndGlobalSection
+EndGlobal
